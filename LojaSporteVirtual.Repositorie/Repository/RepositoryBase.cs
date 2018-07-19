@@ -1,5 +1,4 @@
-﻿using LojaSporteVirtual.Domain.Entity.Interface;
-using System;
+﻿using LojaSporteVirtual.Domain.Interface.Repository;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -23,11 +22,6 @@ namespace LojaSporteVirtual.Repositorie.Repository
         public void Delete(TEntity obj)
         {
             db.Set<TEntity>().Remove(obj);
-        }
-
-        public void Dispose()
-        {
-            Dispose();
         }
 
         public IEnumerable<TEntity> GetAll()

@@ -1,13 +1,13 @@
-﻿using LojaSporteVirtual.Domain.Entity.Interface;
-using LojaSporteVirtual.Repositorie.Repository;
+﻿using LojaSporteVirtual.Application.Interface;
+using LojaSporteVirtual.Domain.Interface.Repository;
 using System.Web.Mvc;
 
 namespace LojaEsporeVirtual.Web.Controllers
 {
     public class ProdutoController : Controller
     {
-        private readonly IProdutoRepository repository;
-        public ProdutoController(IProdutoRepository produto)
+        private readonly IProdutoApplication repository;
+        public ProdutoController(IProdutoApplication produto)
         {
             repository = produto;
         }

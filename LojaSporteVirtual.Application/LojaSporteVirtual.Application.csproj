@@ -40,7 +40,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IApplicationBase.cs" />
+    <Compile Include="Interface\ICategoriaApplication.cs" />
+    <Compile Include="Interface\IProdutoApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ApplicationBase.cs" />
+    <Compile Include="Service\CategoriaApplication.cs" />
+    <Compile Include="Service\ProdutoApplication.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LojaSporteVirtual.Domain\LojaSporteVirtual.Domain.csproj">
+      <Project>{2aeec10b-d5f1-458a-b32d-89763d43f491}</Project>
+      <Name>LojaSporteVirtual.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

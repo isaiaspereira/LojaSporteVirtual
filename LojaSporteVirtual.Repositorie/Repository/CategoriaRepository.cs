@@ -1,5 +1,5 @@
 ﻿using LojaSporteVirtual.Domain.Entity;
-using LojaSporteVirtual.Domain.Interface;
+using LojaSporteVirtual.Domain.Interface.Repository;
 
 namespace LojaSporteVirtual.Repositorie.Repository
 {

@@ -1,10 +1,5 @@
 ﻿using LojaSporteVirtual.Domain.Entity;
-using LojaSporteVirtual.Domain.Entity.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using LojaSporteVirtual.Domain.Interface.Repository;
 
 namespace LojaSporteVirtual.Repositorie.Repository
 {

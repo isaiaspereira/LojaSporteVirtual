@@ -223,13 +223,17 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LojaSporteVirtual.Application\LojaSporteVirtual.Application.csproj">
+      <Project>{e1a9c904-4e97-4bb8-a55a-b52e3a2ec6c6}</Project>
+      <Name>LojaSporteVirtual.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LojaSporteVirtual.CrossCorting\LojaSporteVirtual.CrossCorting.csproj">
+      <Project>{ECE678A1-FEB8-4804-AB6E-976616B7A8BA}</Project>
+      <Name>LojaSporteVirtual.CrossCorting</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LojaSporteVirtual.Domain\LojaSporteVirtual.Domain.csproj">
       <Project>{2aeec10b-d5f1-458a-b32d-89763d43f491}</Project>
       <Name>LojaSporteVirtual.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LojaSporteVirtual.Repositorie\LojaSporteVirtual.Repositorie.csproj">
-      <Project>{1d095b6a-0be4-4236-a130-d9415d51246e}</Project>
-      <Name>LojaSporteVirtual.Repositorie</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using LojaEsporeVirtual.Web.Helps;
 using LojaEsporeVirtual.Web.Models;
-using LojaSporteVirtual.Repositorie.Repository;
+using LojaSporteVirtual.Application.Interface;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -8,14 +8,20 @@ namespace LojaEsporeVirtual.Web.Controllers
 {
     public class VitrineController : Controller
     {
+        private readonly IProdutoApplication _repository;
+
+        public VitrineController(IProdutoApplication produto)
+        {
+            _repository = produto;
+        }
+
         public ViewResult ListaProduto(string categoria, int Pagina = 1)
         {
             int ProdutoPorPagina = 3;
-            var produtoRepository = new ProdutoRepository();
-            //var listaCategoria = produtoRepository.GetAll().Where(c=>c.Categoria.NomeCategoria.Equals("Futebol"));
+
             ProdutosViewModel model = new ProdutosViewModel
             {
-                Produtos = produtoRepository.GetAll()
+                Produtos = _repository.GetAll()
                 .Where(p => categoria == null || p.Categoria.NomeCategoria == categoria.ToUpper())
                 .OrderBy(o => o.Nome)
                 .Skip((Pagina - 1) * ProdutoPorPagina)
@@ -25,7 +31,7 @@ namespace LojaEsporeVirtual.Web.Controllers
                 {
                     PaginaAtual = Pagina,
                     ItensPorPagina = ProdutoPorPagina,
-                    ItensTotal = produtoRepository.GetAll().Count()
+                    ItensTotal = _repository.GetAll().Count()
                 },
                 CategoriaAtual = categoria
             };

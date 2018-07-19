@@ -1,14 +1,4 @@
-﻿using Autofac;
-using Autofac.Integration.Mvc;
-using LojaEsporeVirtual.Web.Helps;
-using LojaEsporeVirtual.Web.Models;
-using LojaSporteVirtual.Domain.Entity;
-using LojaSporteVirtual.Domain.Entity.Interface;
-using LojaSporteVirtual.Repositorie.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using LojaEsporeVirtual.Web.Helps;
 using System.Web.Mvc;
 using System.Web.Routing;
 

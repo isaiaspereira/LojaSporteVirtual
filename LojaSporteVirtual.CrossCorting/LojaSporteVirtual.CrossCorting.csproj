@@ -62,6 +62,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LojaSporteVirtual.Application\LojaSporteVirtual.Application.csproj">
+      <Project>{E1A9C904-4E97-4BB8-A55A-B52E3A2EC6C6}</Project>
+      <Name>LojaSporteVirtual.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LojaSporteVirtual.Domain\LojaSporteVirtual.Domain.csproj">
       <Project>{2aeec10b-d5f1-458a-b32d-89763d43f491}</Project>
       <Name>LojaSporteVirtual.Domain</Name>

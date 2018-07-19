@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace LojaSporteVirtual.Domain.Entity.Interface
+namespace LojaSporteVirtual.Domain.Interface.Repository
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
@@ -13,7 +9,6 @@ namespace LojaSporteVirtual.Domain.Entity.Interface
         TEntity GetById(int Id);
         void Update(TEntity obj);
         void Delete(TEntity obj);
-        void Dispose();
         void Commit();
     }
 }
