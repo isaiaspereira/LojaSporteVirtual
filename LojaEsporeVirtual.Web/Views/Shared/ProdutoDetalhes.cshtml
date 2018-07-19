@@ -1,0 +1,22 @@
+﻿@model LojaSporteVirtual.Domain.Entity.Produto
+
+<div class="card card-body " style="background-color: darkgray">
+    <h3>
+        <strong>
+            @Model.Nome
+        </strong>
+    </h3>
+
+    <h3>
+        <span class="col-8 order-2 badge-pill badge-primary ">
+            @Model.Preco.ToString("c")
+        </span>
+    </h3>
+
+    <h3>
+        <span class="lead">
+            @Model.Descricao
+        </span>
+    </h3>
+</div>
+<br />
