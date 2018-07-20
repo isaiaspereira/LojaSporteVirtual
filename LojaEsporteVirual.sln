@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-LojaEsporteVirtual.Web", "0-LojaEsporteVirtual.Web", "{17C5B3D1-6B48-402C-8FC8-E2A71BC74E4B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-LojaSporteVirtual.Domain", "1-LojaSporteVirtual.Domain", "{6D0B451D-76E7-4B34-8F22-2DB9B090CF4E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-LojaSporteVirtual.Domain", "2-LojaSporteVirtual.Domain", "{6D0B451D-76E7-4B34-8F22-2DB9B090CF4E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-LojaEsporteVirtual.Repositorie", "2-LojaEsporteVirtual.Repositorie", "{CA959C62-86B2-449F-BD58-B29EF4A32909}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-LojaEsporteVirtual.Repositorie", "3-LojaEsporteVirtual.Repositorie", "{CA959C62-86B2-449F-BD58-B29EF4A32909}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-LojaSporteVirtual.UnityTeste", "4-LojaSporteVirtual.UnityTeste", "{E725B3DC-C2FA-4822-81A8-DA5BCF83AF87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-LojaSporteVirtual.UnityTeste", "5-LojaSporteVirtual.UnityTeste", "{E725B3DC-C2FA-4822-81A8-DA5BCF83AF87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaEsporeVirtual.Web", "LojaEsporeVirtual.Web\LojaEsporeVirtual.Web.csproj", "{0C86CFF7-7FC7-491E-ADF1-6F42EE00D9A9}"
 EndProject
@@ -19,11 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaSporteVirtual.Repositor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtualUnityTeste", "LojaVirtualUnityTeste\LojaVirtualUnityTeste.csproj", "{C9B94BC9-D2B5-4124-951D-5A8D066C59A4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-LojaSportVirtual.CossCorting", "5-LojaSportVirtual.CossCorting", "{2EB7A61F-5842-46A9-A1AD-61460190F629}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-LojaSportVirtual.CossCorting", "4-LojaSportVirtual.CossCorting", "{2EB7A61F-5842-46A9-A1AD-61460190F629}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaSporteVirtual.CrossCorting", "LojaSporteVirtual.CrossCorting\LojaSporteVirtual.CrossCorting.csproj", "{ECE678A1-FEB8-4804-AB6E-976616B7A8BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-LojaSporteVirtual.Application", "3-LojaSporteVirtual.Application", "{9C1A096C-BB34-4D5D-BF13-5ED55587BC20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-LojaSporteVirtual.Application", "1-LojaSporteVirtual.Application", "{9C1A096C-BB34-4D5D-BF13-5ED55587BC20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaSporteVirtual.Application", "LojaSporteVirtual.Application\LojaSporteVirtual.Application.csproj", "{E1A9C904-4E97-4BB8-A55A-B52E3A2EC6C6}"
 EndProject

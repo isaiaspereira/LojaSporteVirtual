@@ -35,6 +35,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Categoria.cs" />
+    <Compile Include="Entity\ItemCarrinho.cs" />
     <Compile Include="Interface\Repository\ICategoriaRepository.cs" />
     <Compile Include="Interface\Repository\IProdutoRepository.cs" />
     <Compile Include="Interface\Repository\IRepositoryBase.cs" />

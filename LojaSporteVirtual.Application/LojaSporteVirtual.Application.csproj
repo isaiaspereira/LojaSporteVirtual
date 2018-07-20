@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contrato\Carrinho.cs" />
     <Compile Include="Interface\IApplicationBase.cs" />
     <Compile Include="Interface\ICategoriaApplication.cs" />
     <Compile Include="Interface\IProdutoApplication.cs" />
